@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+.body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  background-image: url('https://images-cdn.welcomesoftware.com/Zz0zZTliMjQ4MzhlNGExMWViYmJiMjFiZTI2ZWNmN2MzZA==');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.title {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  text-align: center;
+  background-color: salmon;
+  color: white;
+  padding: 0.5rem 1rem;
+  margin: 30px;
+  margin-bottom: -2px;
+  margin-top: 11px;
+  border-radius: 0.5rem;
+}
+
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.training-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.training-card {
+  background-color: rgb(242, 240, 240);
+  width: 400px;
+  height: 180px;
+  margin: 20px;
+  padding: 15px;
+  padding-bottom: 25px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 10px 10px 10px #888888;
+}
+
+
+.training-card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.button {
+  font-size: 17px;
+  margin: 0 1rem;
+  padding: 0.5rem 1rem;
+  background-color: mediumslateblue;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  color: white;
+}
+
+.button:hover {
+  background-color: rgb(82, 30, 180);
+}
+
+.center-button {
+  font-size: 32px;
+  margin: 0 1rem;
+  padding: 20px;
+  padding-top: 20px;
+  background-color: mediumslateblue;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  color: white;
+  transform: translateX(565px) translateY(220px);
+  width: 300px;
+  height: 200px;
+}
+
+.center-button:hover {
+  background-color: rgb(82, 30, 180);
+}
+
+.bienvenue {
+  transform: translateX(587px) translateY(230px);
 }
